@@ -12,11 +12,11 @@ class YoutubeDlDate < Formula
 
   def install
     system "make", "PREFIX=#{prefix}" if build.head?
-    bin.install "youtube-dl-date"
+    bin.install "youtube-dl"
   end
 
   test do
-    system "#{bin}/youtube-dl-date", "--simulate", "https://www.youtube.com/watch?v=he2a4xK8ctk"
-    system "#{bin}/youtube-dl-date", "--simulate", "--yes-playlist", "https://www.youtube.com/watch?v=7FlzFH9xOF8&list=PLRuS3NbVmMIq4XypJdggVfUVJNRZjbfCR"
+    system "#{bin}/youtube-dl", "--simulate", "https://www.youtube.com/watch?v=he2a4xK8ctk"
+    system "#{bin}/youtube-dl", "--simulate", "--yes-playlist", "https://www.youtube.com/watch?v=7FlzFH9xOF8&list=PLRuS3NbVmMIq4XypJdggVfUVJNRZjbfCR"
   end
 end
