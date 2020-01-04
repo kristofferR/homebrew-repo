@@ -1,10 +1,10 @@
 class YoutubeDlDate < Formula
   desc "Download YouTube videos from the command-line"
   homepage "https://github.com/kade-robertson/youtube-dl"
-  url "https://github.com/kade-robertson/youtube-dl/archive/master.zip"
+  url "https://github.com/kade-robertson/youtube-dl.git", :branch => 'master', :using => :git
 
   head do
-    url "https://github.com/kade-robertson/youtube-dl.git"
+    url "https://github.com/kade-robertson/youtube-dl.git", :branch => 'master', :using => :git
     depends_on "pandoc" => :build
   end
 
