@@ -1,4 +1,4 @@
-youtube-dl fork with custom date output options (
+youtube-dl fork with custom date output options
 =================
 
 Homebrew Tap for Kade Robertson's youtube-dl fork with custom date options:
