@@ -1,4 +1,4 @@
-class YoutubeDldate < Formula
+class YoutubeDlDate < Formula
   desc "Download YouTube videos from the command-line"
   homepage "https://github.com/kade-robertson/youtube-dl"
   url "https://github.com/kade-robertson/youtube-dl/archive/master.zip"
