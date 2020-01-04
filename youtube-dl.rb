@@ -1,4 +1,4 @@
-class YoutubeDlDate < Formula
+class YoutubeDl < Formula
   desc "Download YouTube videos from the command-line"
   homepage "https://github.com/kade-robertson/youtube-dl"
   url "https://github.com/kade-robertson/youtube-dl.git", :branch => 'master', :using => :git
