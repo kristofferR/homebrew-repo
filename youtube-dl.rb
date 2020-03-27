@@ -1,7 +1,8 @@
 class YoutubeDl < Formula
   desc "Download YouTube videos from the command-line"
   homepage "https://github.com/kade-robertson/youtube-dl"
-  url "https://github.com/kade-robertson/youtube-dl.git", :branch => 'master', :using => :git
+  url "https://github.com/ytdl-org/youtube-dl/releases/download/2020.03.24/youtube-dl-2020.03.24.tar.gz"
+  sha256 "45a398a41e4a06862413d9c8d57e6c1fa0e60660c6f69df928b64f3595568416"
 
   head do
     url "https://github.com/kade-robertson/youtube-dl.git", :branch => 'master', :using => :git
